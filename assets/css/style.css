@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito:wght@200;300;400;500;600;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito:wght@200;300;400;500;600;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/*=================================== navbar ===================================*/
+.hero-background {
+  background: url(/assets/image/png/hero-section-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 38px;
+}
+
+.navbar-expand-lg {
+  max-width: 1120px;
+  width: 100%;
+  margin: auto;
+}
+
+.container-fluid {
+  justify-content: space-between !important;
+}
+
+.navbar-nav {
+  gap: 25px;
+  justify-content: end;
+  margin: 0px;
+}
+
+.nav-link {
+  margin-bottom: 0px;
+  width: 97px;
+  color: #fff;
+  font-family: Tomorrow;
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-link:hover {
+  color: #36beff;
+  cursor: pointer;
+}
+
+.Docs {
+  font-family: Tomorrow;
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.collapse {
+  gap: 15px;
+  display: grid;
+  justify-content: end;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 45px;
+  border: 1px solid #fff;
+  text-align: center;
+  font-family: Tomorrow;
+  font-size: 14px;
+
+  font-weight: 700;
+  line-height: normal;
+  padding: 6px 22px;
+}
+
+.btn:hover {
+  background: #36beff !important;
+  color: #000;
+}
+
+.nav-social-media {
+  gap: 18px;
+  margin-left: 34px;
+}
+/*=================================== hero-section ===================================*/
+.hero-main {
+  padding: 126px 16px 145px;
+}
+.the-web3 {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 65px;
+
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 27px;
+}
+
+.view-api {
+  color: #fff;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Tomorrow;
+  font-size: 17px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-a {
+  margin: auto;
+  color: #fff;
+  background: none;
+  border-radius: 45px;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 11px 35px;
+  text-align: center;
+  font-family: Tomorrow;
+  font-size: 14px;
+
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.btn-a:hover {
+  background: #36beff;
+  color: #000;
+  border: 1px solid #36beff;
+}
+
+/* section-2=========================== */
+
+.most-popular-section {
+  background: url(/assets/image/png/most-popular-bg.png) no-repeat center;
+  background-size: cover;
+  padding: 55px 12px 60px;
+}
+
+.Most-popular {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.card-main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 35px;
+  row-gap: 24px;
+  margin-top: 67px;
+}
+
+.most-popular-card {
+  max-width: 348px;
+  width: 100%;
+  padding: 26px 5px 23px 11px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #969696;
+  opacity: 0.55;
+  background: #475c83;
+  cursor: pointer;
+}
+
+.most-popular-card:hover {
+  background: none;
+}
+
+.NFT-API {
+  color: #fff;
+  width: 174px;
+  margin-bottom: 0px;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Easiest {
+  max-width: 291px;
+  width: 100%;
+  margin-bottom: 0px;
+  color: #fff;
+  font-family: Tomorrow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.14px;
+  margin-top: 23px;
+}
+
+.alchemy_pending {
+  max-width: 194px;
+  width: 100%;
+  color: #fff;
+
+  margin-bottom: 0px;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: normal;
+}
+
+.What {
+  max-width: 243px;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 0px;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: normal;
+}
+
+.how {
+  max-width: 263px;
+  width: 100%;
+  color: #fff;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* section-3=================================== */
+.learn-how {
+  background: url(/assets/image/png/learn-how-bg.png) no-repeat center;
+  background-size: cover;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 42px 12px 50px;
+}
+
+.learn-card:hover {
+  background: none;
+  cursor: pointer;
+}
+
+.learn {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 40px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.learn-card-main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  margin-top: 43px;
+}
+
+.learn-card {
+  max-width: 348px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #313131;
+  background: #000;
+  padding: 32px 0px 22px 11px;
+}
+
+.Alchemy-University {
+  max-width: 195px;
+  width: 100%;
+  color: #fff;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.ethereum {
+  color: #9f9f9f;
+  max-width: 312px;
+  width: 100%;
+  font-family: Tomorrow;
+  font-size: 12px;
+
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+.view-a {
+  width: 140px;
+  color: #fff;
+  margin-bottom: 0px;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.Create {
+  width: 174px;
+  color: #fff;
+  margin-bottom: 0px;
+  font-family: Tomorrow;
+  font-size: 20px;
+
+  font-weight: 700;
+}
+/* section-4============================== */
+
+.api-refrence-main {
+  background: url(/assets/image/png/api-reference.png) no-repeat center;
+  background-size: cover;
+  padding: 56px 12px 75px;
+}
+.card-c:hover {
+  background: none;
+  cursor: pointer;
+}
+.api-refrence-card-div {
+  width: 92px;
+  text-align: center;
+}
+
+.api {
+  text-align: center;
+  color: #fff;
+  font-family: Bebas Neue;
+  font-size: 40px;
+
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.Including {
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Tomorrow;
+  font-size: 17px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reference-div-1 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 54px;
+}
+
+.reference-div-2 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+  margin-top: 42px;
+}
+
+.Ethereum-a {
+  color: #fff;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* section-5=================================== */
+
+.use-case-main {
+  background: url(/assets/image/png/use-case.png) no-repeat center;
+  background-size: cover;
+  padding: 49px 12px 75px;
+}
+
+.use {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.apis {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Tomorrow;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.card-c {
+  max-width: 348px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #313131;
+  background: #000;
+  padding: 32px 33px 22px 11px;
+}
+
+.newcard-b {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 35px;
+  row-gap: 24px;
+  margin-top: 46px;
+}
+
+.Ethereum-b {
+  color: #9f9f9f;
+  max-width: 300px;
+  width: 100%;
+  font-family: Tomorrow;
+  font-size: 12px;
+
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+/* section-6===================== */
+.join-web-main {
+  background: url(/assets/image/png/join-web.png) no-repeat center;
+  background-size: cover;
+  padding: 47px 12px 40px;
+}
+
+.get {
+  color: #ecf0f9;
+  margin-top: 38px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* media-queery============================================ */
+@media (max-width: 1280px) {
+  .card-main {
+    display: grid;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 24px;
+  }
+}
+@media (max-width: 992px) {
+  .card-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    row-gap: 24px;
+  }
+  .learn-card-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+  .collapse {
+    display: block;
+  }
+  .newcard-b {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .view-api {
+    font-size: 15px;
+  }
+  .the-web3 {
+    font-size: 55px;
+    margin-top: 0px;
+  }
+  .card-main {
+    display: grid;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 24px;
+  }
+  .learn-card-main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  .reference-div-2 {
+    flex-direction: column;
+    margin-top: -140px;
+  }
+  .reference-div-1 {
+    flex-direction: column;
+  }
+  .mainnew {
+    display: flex;
+    justify-content: space-around;
+  }
+  .newcard-b {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .the-web3 {
+    font-size: 45px;
+    margin-top: 0px;
+  }
+  .view-api {
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .card-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    column-gap: 35px;
+    row-gap: 24px;
+    margin-top: 47px;
+  }
+}
