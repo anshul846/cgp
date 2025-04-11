@@ -70,21 +70,23 @@
 }
 
 .btn {
-  color: #fff;
+  color: #000;
   border-radius: 45px;
-  border: 1px solid #fff;
+  background: #36beff;
+  border: 1px solid #36beff;
   text-align: center;
   font-family: Tomorrow;
   font-size: 14px;
-
   font-weight: 700;
   line-height: normal;
   padding: 6px 22px;
 }
 
 .btn:hover {
-  background: #36beff !important;
-  color: #000;
+  background: transparent;
+  border: 1px solid #fff;
+
+  color: #fff;
 }
 
 .nav-social-media {
@@ -119,10 +121,10 @@
 
 .btn-a {
   margin: auto;
-  color: #fff;
-  background: none;
+  color: #000;
+  background: #36beff;
   border-radius: 45px;
-  border: 1px solid #fff;
+  border: 1px solid #36beff;
   text-align: center;
   padding: 11px 35px;
   text-align: center;
@@ -133,9 +135,9 @@
 }
 
 .btn-a:hover {
-  background: #36beff;
-  color: #000;
-  border: 1px solid #36beff;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /* section-2=========================== */
@@ -165,13 +167,13 @@
 }
 
 .most-popular-card {
-  max-width: 348px;
+  max-width: 308px;
   width: 100%;
   padding: 26px 5px 23px 11px;
   flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid #969696;
-  opacity: 0.55;
+
   background: #475c83;
   cursor: pointer;
 }
@@ -180,18 +182,17 @@
   background: none;
 }
 
-.NFT-API {
+.nft-api {
   color: #fff;
   width: 174px;
   margin-bottom: 0px;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
   line-height: normal;
 }
 
-.Easiest {
+.easiest {
   max-width: 291px;
   width: 100%;
   margin-bottom: 0px;
@@ -209,11 +210,9 @@
   max-width: 194px;
   width: 100%;
   color: #fff;
-
   margin-bottom: 0px;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
   line-height: normal;
 }
@@ -225,7 +224,6 @@
   margin-bottom: 0px;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
   line-height: normal;
 }
@@ -236,7 +234,6 @@
   color: #fff;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
   line-height: 24px;
 }
@@ -285,7 +282,6 @@
   color: #fff;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
   margin-bottom: 0px;
 }
@@ -296,7 +292,6 @@
   width: 100%;
   font-family: Tomorrow;
   font-size: 12px;
-
   font-weight: 400;
   margin-bottom: 0px;
   margin-top: 25px;
@@ -308,7 +303,6 @@
   margin-bottom: 0px;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
 }
 
@@ -318,7 +312,6 @@
   margin-bottom: 0px;
   font-family: Tomorrow;
   font-size: 20px;
-
   font-weight: 700;
 }
 /* section-4============================== */
@@ -327,6 +320,14 @@
   background: url(/assets/image/png/api-reference.png) no-repeat center;
   background-size: cover;
   padding: 45px 12px 75px;
+}
+
+.card-c {
+  width: 348px;
+  border-radius: 16px;
+  border: 1px solid #313131;
+  background: #000;
+  padding: 32px 33px 22px 11px;
 }
 .card-c:hover {
   background: none;
@@ -414,8 +415,7 @@
 }
 
 .card-c {
-  max-width: 348px;
-  width: 100%;
+  width: 348px;
   border-radius: 16px;
   border: 1px solid #313131;
   background: #000;
@@ -423,21 +423,19 @@
 }
 
 .newcard-b {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   justify-content: center;
   column-gap: 35px;
   row-gap: 24px;
   margin-top: 40px;
 }
 
-.Ethereum-b {
+.ethereum-b {
   color: #9f9f9f;
   max-width: 300px;
   width: 100%;
   font-family: Tomorrow;
-  font-size: 12px;
-
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 0px;
   margin-top: 25px;
